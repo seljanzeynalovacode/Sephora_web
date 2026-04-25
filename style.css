@@ -1,0 +1,118 @@
+#Advertisment {
+  background-color: rgb(168, 197, 255);
+  width: auto;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#ad_text {
+  font-size: 20px;
+  color: rgb(11, 11, 34);
+}
+
+#navigation {
+  border: 1px solid black;
+  background-color: #eae5e5; /* Arxa fon ağ */
+  height: 90px;
+  display: flex;
+  align-items: center; /* Nav daxilindəki container-i mərkəzləşdirir */
+}
+
+#navigation .container {
+  display: flex;
+  align-items: center; /* Container daxilindəki loqo, search və ikonları mərkəzləşdirir */
+  justify-content: space-between;
+}
+
+#nav_text {
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 5px;
+}
+
+.form-control {
+  max-width: 500px;
+  height: 40px;
+}
+
+.small-text {
+  font-size: 20px;
+  line-height: 1.2;
+  cursor: pointer;
+}
+.custom-search {
+  border: 1.5px solid #000000 !important;
+  padding-left: 40px;
+  background-color: #f6f6f6;
+  height: 45px;
+}
+.login-section {
+  font-size: 20px;
+}
+
+.custom-search:focus {
+  border-color: #000000;
+  box-shadow: none;
+  background-color: #ffffff;
+}
+.like,
+.shop {
+  font-size: 25px;
+}
+.container {
+  max-width: 1200px;
+}
+#second_nav {
+  border: 1px solid black;
+  justify-content: center;
+  align-items: center;
+    display: flex;
+    justify-content: center; 
+    width: 100%; 
+    gap: 15px;   
+}
+#second_nav .navbar {
+    background-color: #000000 !important; /* Tam qara fon */
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+/*#carouselExampleCaptions{
+    width: 1000px;
+}
+*/
+/* 2. Yazıları ağ edirik */
+#second_nav .nav-link {
+    color: #ffffff !important; /* Ağ yazı */
+    font-size: 14px;
+    font-weight: 500;
+    padding: 12px 15px !important;
+    white-space: nowrap;
+    transition: 0.3s; /* Hover effektinin yumşaq olması üçün */
+}
+#second_nav .container {
+    background-color: #000000 !important;
+    display: flex;
+    justify-content: center; /* Elementləri mərkəzə yığır */
+    padding: 0;
+}
+#second_nav .navbar-collapse {
+    display: flex !important;
+    justify-content: center; /* Üfüqi mərkəzləşdirmə */
+}
+#main_1{
+    background-color: #f6f6f6;
+    border: 1px solid black;
+    height: 100%;
+    width: 100%;
+}
+.carousel-item img {
+    height: 300px;
+    object-fit: cover; /* Şəkillərin formasını pozmadan sığdırır */
+}
+#main_2{
+    display: flex;
+    margin-top: 40px;
+}
+
